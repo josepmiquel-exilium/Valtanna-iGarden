@@ -1,9 +1,10 @@
 import network
 import time
+import config
 
 # Replace with your Wi-Fi credentials
-SSID = "your_wifi_name"
-PASSWORD = "your_wifi_password"
+SSID = config.SSID
+PASSWORD = config.PASSWORD
 
 # Create a WLAN station interface
 wlan = network.WLAN(network.STA_IF)
